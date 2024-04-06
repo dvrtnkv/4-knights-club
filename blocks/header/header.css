@@ -1,0 +1,10 @@
+.header {
+  box-sizing: border-box;
+  height: 700px;
+  background: url("https://collarslab.com/chess/images/webp/header-tile.webp") repeat;
+}
+@media (width <= 768px) {
+  .header {
+    height: 774px;
+  }
+}

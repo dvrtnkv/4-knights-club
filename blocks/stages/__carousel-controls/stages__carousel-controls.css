@@ -1,0 +1,11 @@
+.stages__carousel-controls {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  margin: 28px auto;
+}
+@media (width >= 850px) {
+  .stages__carousel-controls {
+    display: none;
+  }
+}

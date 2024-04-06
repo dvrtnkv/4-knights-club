@@ -1,0 +1,14 @@
+.members__container {
+  overflow: hidden;
+  padding: 40px 0;
+}
+@media (width <= 968px) {
+  .members__container {
+    order: 2;
+  }
+}
+@media (width >= 768px) {
+  .members__container {
+    padding: 60px 0;
+  }
+}

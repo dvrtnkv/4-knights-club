@@ -1,0 +1,8 @@
+.stages {
+  margin-bottom: 120px;
+}
+@media (width >= 850px) {
+  .stages {
+    margin-bottom: 150px;
+  }
+}

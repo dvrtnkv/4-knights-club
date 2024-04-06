@@ -1,0 +1,9 @@
+.members__title {
+  font-size: clamp(2.25rem, 4vw + 1rem, 3.375rem);
+  line-height: clamp(2.5rem, 5vw + 1rem, 4.063rem);
+}
+@media (width <= 968px) {
+  .members__title {
+    order: 1;
+  }
+}

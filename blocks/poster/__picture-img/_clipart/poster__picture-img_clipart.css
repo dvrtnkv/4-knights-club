@@ -1,0 +1,16 @@
+.poster__picture-img_clipart {
+  height: auto;
+  width: 100%;
+}
+@media (width >= 1222px) {
+  .poster__picture-img_clipart {
+    width: 530px;
+    max-width: unset;
+  }
+}
+@media (width <= 1221px) {
+  .poster__picture-img_clipart {
+    max-width: 400px;
+    height: auto;
+  }
+}

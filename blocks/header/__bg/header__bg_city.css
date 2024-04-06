@@ -1,0 +1,19 @@
+.header__bg_city {
+  z-index: 5;
+  position: absolute;
+  width: 885px;
+  height: 243px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(calc(-50% - 158px));
+  background-image: url("https://collarslab.com/chess/images/webp/mobile/city_mobile.webp");
+  background-repeat: no-repeat;
+}
+@media (width >= 768px) {
+  .header__bg_city {
+    width: 1606px;
+    height: 441px;
+    transform: translateX(-50%);
+    background-image: url("https://collarslab.com/chess/images/webp/desktop/city.webp");
+  }
+}

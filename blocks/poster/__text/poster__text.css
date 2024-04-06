@@ -1,0 +1,18 @@
+.poster__text {
+  font-family: var(--header-font);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+  line-height: clamp(2.375rem, 3vw + 1rem, 3rem);
+  max-width: 32ch;
+}
+@media (width <= 768px) {
+  .poster__text {
+    text-wrap: balance;
+  }
+}
+@media (width < 375px) {
+  .poster__text {
+    hyphens: auto;
+  }
+}

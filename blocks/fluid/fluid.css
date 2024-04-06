@@ -1,0 +1,11 @@
+.fluid {
+  box-sizing: content-box;
+  width: calc(100vw - 40px);
+  max-width: 1222px;
+  margin: 0 auto;
+}
+@media (width >= 768px) {
+  .fluid {
+    width: calc(100vw - 144px);
+  }
+}

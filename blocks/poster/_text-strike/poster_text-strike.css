@@ -1,0 +1,12 @@
+.poster_text-strike {
+  position: relative;
+}
+.poster_text-strike::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: -2px;
+  top: 55%;
+  background-color: var(--accent-color);
+}

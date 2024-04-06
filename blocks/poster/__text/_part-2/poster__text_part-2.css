@@ -1,0 +1,7 @@
+@media (width <= 1221px) {
+  .poster__text_part-2 {
+    order: 3;
+    text-wrap: wrap;
+    width: 100%;
+  }
+}

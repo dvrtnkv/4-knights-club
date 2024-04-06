@@ -1,0 +1,5 @@
+.poster__picture-img_rounded {
+  overflow: hidden;
+  border-radius: 50%;
+  max-width: 100%;
+}

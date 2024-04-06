@@ -1,0 +1,12 @@
+.stages__carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--disabled-color);
+}
+.stages__carousel-dot[data-current] {
+  background: var(--color-dark);
+}
+.stages__carousel-dot:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.poster__title {
+  max-width: 764px;
+  align-self: center;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+  width: 80%;
+}
+@media (width < 1100px) {
+  .poster__title {
+    display: contents;
+    max-width: 100%;
+  }
+}

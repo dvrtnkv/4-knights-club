@@ -1,0 +1,5 @@
+.poster__text_accent-text {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-variant-numeric: lining-nums proportional-nums;
+}

@@ -1,0 +1,13 @@
+.poster__container {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+@media (width < 1100px) {
+  .poster__container {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  --color-dark: #313131;
+  --color-light: #ffffff;
+  --accent-color: #f54932;
+  --link-color: #3057a2;
+  --button-dark-bg-color: #fbce51;
+  --button-light-text-color: #1f1f1f;
+  --background-light-color: #e9ded4;
+  --light-gray-color: #d0d0d0;
+  --disabled-color: #d7d7d7;
+  --dimmed-text-color: #6f6f6f;
+  --header-font: "Merriweather", serif;
+  --main-font: "Golos Text", sans-serif;
+  --translate-x: 0;
+  --offset: 0;
+  --isAnimated: paused;
+  --btn-active-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--header-font);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  max-width: 30ch;
+}
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: var(--main-font);
+  font-size: 16px;
+  padding: 0;
+}

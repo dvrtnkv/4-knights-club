@@ -1,0 +1,18 @@
+.header__bg_chess-queen {
+  z-index: 3;
+  position: absolute;
+  width: 66px;
+  height: 108px;
+  left: 50%;
+  transform: translate(calc(-50% + 66px), 502px);
+  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-queen_mobile.webp");
+  background-repeat: no-repeat;
+}
+@media (width >= 768px) {
+  .header__bg_chess-queen {
+    width: 146px;
+    height: 266px;
+    transform: translate(calc(-50% + 452px), 165px);
+    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-queen.webp");
+  }
+}

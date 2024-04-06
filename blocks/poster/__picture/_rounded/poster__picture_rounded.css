@@ -1,0 +1,11 @@
+.poster__picture_rounded {
+  width: 394px;
+  max-width: 100%;
+  max-height: 250px;
+  height: auto;
+}
+@media (width <= 1221px) {
+  .poster__picture_rounded {
+    order: 2;
+  }
+}

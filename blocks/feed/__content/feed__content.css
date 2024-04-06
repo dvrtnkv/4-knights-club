@@ -1,0 +1,32 @@
+.feed__content {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: runLeft 42s linear infinite;
+  font-family: var(--header-font);
+  color: var(--color-light);
+  text-shadow: 0 0 1px rgb(49 49 49 / 70%); /* Добавлена чтоб пройти тест доступности Lighthouse */
+}
+.feed__content[paused="true"] {
+  animation-play-state: paused;
+}
+.feed__content > i {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  margin: 0 12px;
+  background-color: var(--color-light);
+}
+@keyframes runLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media (width >= 768px) {
+  .feed__content {
+    font-size: 22px;
+  }
+}

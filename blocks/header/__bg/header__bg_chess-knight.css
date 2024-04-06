@@ -1,0 +1,19 @@
+.header__bg_chess-knight {
+  z-index: 6;
+  position: absolute;
+  width: 94px;
+  height: 105px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(calc(-50% + 6px));
+  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-knight_mobile.webp");
+  background-repeat: no-repeat;
+}
+@media (width >= 768px) {
+  .header__bg_chess-knight {
+    width: 197px;
+    height: 218px;
+    transform: translateX(calc(-50% + 251px));
+    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-knight.webp");
+  }
+}

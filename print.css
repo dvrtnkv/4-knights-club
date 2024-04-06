@@ -1,0 +1,73 @@
+@media print {
+  .header {
+    height: min-content;
+  }
+  .header__bg {
+    display: none;
+  }
+  .feed {
+    display: none;
+  }
+  .stages__list {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    gap: 0;
+  }
+  .stages__list-item {
+    padding: 20px;
+    min-height: unset;
+  }
+  .stages__list-item-2,
+  .stages__list-item-5 {
+    padding-top: 20px;
+  }
+  .header__buttons,
+  .stages__carousel-controls,
+  .members__controls,
+  .stages__list-container::after {
+    display: none;
+  }
+  .poster__picture_clipart,
+  .poster__picture_rounded {
+    max-width: 300px;
+  }
+  .poster__container_event-text {
+    gap: 1rem;
+  }
+  .poster__event-faq,
+  .stages {
+    page-break-after: always;
+  }
+  .members__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 64px;
+    width: 100%;
+    margin-top: 80px;
+    transform: translateX(0);
+  }
+  /* Скрываем дубликаты */
+  .members__list-item:nth-child(1),
+  .members__list-item:nth-child(2),
+  .members__list-item:nth-child(3),
+  .members__list-item:nth-child(10),
+  .members__list-item:nth-child(11),
+  .members__list-item:nth-child(12) {
+    display: none;
+  }
+  .members__list-item {
+    width: unset;
+  }
+  .members__picture {
+    width: 244px;
+    height: 244px;
+    background-image: url("https://collarslab.com/chess/images/webp/mobile/member_mobile.webp"),
+      url("https://collarslab.com/chess/images/webp/desktop/member.webp"); /* Возможно на момент печати одна из картинок не загружена */
+    background-size: 244px 244px, 244px 244px;
+  }
+  .footer {
+    color: var(--color-dark);
+    background: none;
+  }
+}

@@ -1,0 +1,22 @@
+.stages__carousel-btn {
+  display: inline-block;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--color-light);
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMiAyMCI+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xMC41IDE4LjUgMi4xIDEwbDguNC04LjUiLz48L3N2Zz4=")
+    var(--color-dark) no-repeat calc(50% - 2px) center;
+  background-size: 25%;
+  -webkit-tap-highlight-color: transparent;
+  transition: box-shadow 0.3s;
+}
+.stages__carousel-btn:hover {
+  background-color: var(--button-dark-bg-color);
+}
+.stages__carousel-btn:disabled {
+  background-color: var(--disabled-color);
+}
+.stages__carousel-btn:active {
+  box-shadow: var(--btn-active-shadow);
+}

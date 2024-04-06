@@ -1,0 +1,18 @@
+.members__list-item {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 100%;
+}
+@media (834px <= width <= 1188px) {
+  .members__list-item {
+    width: calc((50% - 20px) / 2);
+  }
+}
+@media (width >= 1189px) {
+  .members__list-item {
+    width: calc((33.3% - 40px) / 3);
+  }
+}

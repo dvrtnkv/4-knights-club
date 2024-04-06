@@ -1,0 +1,10 @@
+.timer__progress {
+  --angle: calc(3.6deg * var(--progress, 0));
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: conic-gradient(var(--disabled-color) var(--angle, 0deg), transparent var(--angle, 0deg));
+  clip-path: circle(50% at 50%);
+}

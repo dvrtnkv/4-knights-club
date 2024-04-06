@@ -1,0 +1,8 @@
+.header__btn_fill {
+  background-color: var(--button-light-text-color);
+  color: var(--color-light);
+}
+.header__btn_fill:hover {
+  background: var(--button-dark-bg-color);
+  color: var(--button-light-text-color);
+}

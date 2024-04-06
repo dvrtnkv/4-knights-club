@@ -1,0 +1,7 @@
+@media (width <= 968px) {
+  .members {
+    display: flex;
+    flex-flow: column;
+    column-gap: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.header__bg_chess-pawn {
+  z-index: 7;
+  position: absolute;
+  width: 42px;
+  height: 62px;
+  left: 50%;
+  background-repeat: no-repeat;
+  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-pawn_mobile.webp");
+  transform: translate(calc(-50% + 179px), 702px);
+}
+@media (width <= 375px) {
+  .header__bg_chess-pawn {
+    display: none;
+  }
+}
+@media (width >= 768px) {
+  .header__bg_chess-pawn {
+    width: 83px;
+    height: 123px;
+    transform: translate(calc(-50% + 597px), 558px);
+    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-pawn.webp");
+  }
+}

@@ -1,0 +1,29 @@
+.members__list {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 32px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  transform: translateX(var(--offset));
+}
+.members__list[instant-transform="false"] {
+  transition: transform 0.3s ease;
+}
+.members__list[instant-transform="true"] {
+  transition: transform 1ms linear;
+}
+@media (width >= 376px) {
+  .members__list {
+    column-gap: 20px;
+  }
+}
+@media (834px <= width <= 1188px) {
+  .members__list {
+    width: 200%;
+  }
+}
+@media (width >= 1189px) {
+  .members__list {
+    width: 300%;
+  }
+}

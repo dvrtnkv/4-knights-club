@@ -1,0 +1,6 @@
+@media (width <= 1221px) {
+  .poster__text_part-1 {
+    order: 1;
+    width: 100%;
+  }
+}

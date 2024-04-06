@@ -1,0 +1,32 @@
+.header__headline {
+  max-width: 542px;
+  width: 100%;
+  font-family: var(--header-font);
+  color: var(--color-dark);
+  font-size: clamp(2.25rem, 4vw + 1rem, 3.75rem);
+  line-height: clamp(2.5rem, 4.5vw + 1rem, 4.125rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.header__headline::after {
+  content: "ЗЕМНОГО ШАРА";
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.header__headline::before {
+  content: "ПРЕВРАТИТЕ\AУЕЗДНЫЙ ГОРОД";
+  white-space: pre;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+@media (width < 360px) {
+  .header__headline {
+    font-size: clamp(1.8rem, 4vw + 1rem, 2.75rem);
+    line-height: clamp(2rem, 1.5vw + 1rem, 2rem);
+  }
+}

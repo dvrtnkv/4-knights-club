@@ -1,0 +1,47 @@
+.header__logo {
+  display: flex;
+  gap: 5.5px;
+  height: 32px;
+  margin-top: clamp(1.125rem, 1vw + 1rem, 1.625rem);
+  margin-bottom: clamp(2.5rem, 4vw + 1rem, 3.875rem);
+  z-index: 9999;
+}
+.header__logo-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5px;
+  width: 79.5px;
+}
+.header__logo-icons > div {
+  width: 18.75px;
+  height: 27px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAyNyI+PHBhdGggZmlsbD0iIzU5NTY1MyIgZD0iTTE4IDI1LjdoLS41di0uMWE0IDQgMCAwMDAtLjNsLS4xLS4ydi0uMmwtLjEtLjJ2LS4xaC0uMWE2LjcgNi43IDAgMDAwLS4zSDE3di0uMWE1LjIgNS4yIDAgMDAtLjEtLjJ2LS4xaC0uMXYtLjJoLS4xdi0uMWwtLjEtLjFhMTEuNSAxMS41IDAgMDAwLS4yaC0uMXYtLjFsLS4yLS4xVjIzbC0uMS0uMXYtLjFoLS4xdi0uMWwtLjEtLjItLjItLjF2LS4xaC0uMVYyMmgtLjFsLS4zLS4zLS4xLS4xLS4xLS4xYTYuMyA2LjMgMCAwMC0uNC0uNGgtLjJWMjFsLS4zLS4yLS4yLS4xLS4xLS4xYTguMyA4LjMgMCAwMC0xLjItLjZsLS4yLS4xaDEuMmMuMiAwIC40LS4zLjQtLjUgMC0uMy0uMi0uNS0uNC0uNWgtLjRsLjEtLjJjLjQtLjIgMS0uNiAxLjYtMS40bC4xLS4yLjEtLjIuMS0uMXYtLjJoLjFsLjEtLjJhNS45IDUuOSAwIDAwLjItLjJWMTZoLjF2LS4xYTYuNyA2LjcgMCAwMC4yLS4zdi0uNGguMVYxNWExMS41IDExLjUgMCAwMC4xLS4ydi0uMWE3LjIgNy4yIDAgMDAuMS0uMnYtLjRoLjF2LS4ybC4xLS4ydi0uMmExNi4zIDE2LjMgMCAwMC4xLS40di0uN2wuMS0uMnYtLjNhMTMgMTMgMCAwMDAtLjJWOWEyOS4yIDI5LjIgMCAwMC0uMS0uNnYtLjNsLS4xLS4zQzE1LjItMS40IDUuNi4xIDUuNi4xbC4zIDJMMCA3LjlsLjMgMi4zIDIuMiAxLjMuNC0uN2MxLjQtMS41IDQuMi0yLjggNS0zbC4yLS4xQzQuMyAxMi40IDQuNyAxNy43IDUgMTljLS4yIDAtLjMuMi0uMy41IDAgLjIuMi41LjQuNWgxLjJhOC4xIDguMSAwIDAwLTQuNyA0Ljh2LjJoLS4xdi4xYTMuNiAzLjYgMCAwMC0uMS4zdi4ySC42YS43LjcgMCAwMC0uNS4zLjcuNyAwIDAwLS4yLjQuNi42IDAgMDAuMi41LjcuNyAwIDAwLjUuMkgxOGEuNy43IDAgMDAuNS0uMi43LjcgMCAwMC4zLS41LjYuNiAwIDAwLS4zLS40LjcuNyAwIDAwLS41LS4yeiIvPjwvc3ZnPg==")
+    no-repeat;
+  background-size: 18.75px 27px;
+}
+.header__logo-text {
+  font-weight: 700;
+  font-size: 14.42px;
+  line-height: 15.57px;
+  letter-spacing: 0.01em;
+  color: #595653;
+}
+@media (width >= 768px) {
+  .header__logo {
+    height: 36px;
+    gap: 6.35px;
+  }
+  .header__logo-text {
+    font-size: 16.65px;
+    line-height: 17.98px;
+  }
+  .header__logo-icons {
+    width: 91.79px;
+    gap: 1.73px;
+  }
+  .header__logo-icons > div {
+    width: 21.65px;
+    height: 31.18px;
+    background-size: 21.65px 31.18px;
+  }
+}

@@ -1,0 +1,54 @@
+.stages__list {
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+    "item-1 item-3 item-4 item-6 item-7"
+    "item-2 item-3 item-5 item-6 item-7";
+  column-gap: 20px;
+  list-style: none;
+  transition: none;
+  counter-reset: decimal-circled-counter;
+  transition: transform 0.3s ease;
+  transform: translateX(var(--translate-x));
+}
+.stages__list[instant-transform="false"] {
+  transition: transform 0.3s ease;
+}
+.stages__list[instant-transform="true"] {
+  transition: transform 1ms linear;
+}
+@media (width <= 375px) {
+  .stages__list {
+    grid-template-rows: repeat(2, max-content);
+  }
+}
+@media (width >= 850px) {
+  .stages__list {
+    gap: 20px;
+    width: 100%;
+    margin: 54px 0 28px 0;
+  }
+}
+@media (850px <= width < 1222px) {
+  .stages__list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "item-1 item-2"
+      "item-3 item-3"
+      "item-4 item-5"
+      "item-6 item-6"
+      "item-7 item-7";
+    max-width: 100%;
+  }
+}
+@media (width >= 1222px) {
+  .stages__list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "item-1 item-2 item-3"
+      "item-4 item-5 item-3"
+      "item-6 item-7 item-7";
+  }
+}

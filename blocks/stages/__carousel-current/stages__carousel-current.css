@@ -1,0 +1,6 @@
+.stages__carousel-current {
+  display: flex;
+  column-gap: 6px;
+  list-style-type: none;
+  margin: auto 16px;
+}

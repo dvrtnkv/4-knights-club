@@ -1,0 +1,12 @@
+.header__buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 542px;
+}
+@media (width <= 768px) {
+  .header__buttons {
+    flex-flow: column wrap;
+    gap: 14px;
+  }
+}

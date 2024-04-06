@@ -1,0 +1,11 @@
+@media (width >= 1100px) {
+  .poster__picture_clipart {
+    transform: translate(-27px, -47px);
+  }
+}
+@media (600px <= width <= 1221px) {
+  .poster__picture_clipart {
+    max-width: 400px;
+    width: 100%;
+  }
+}

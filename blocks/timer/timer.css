@@ -1,0 +1,20 @@
+.timer {
+  --visibility: hidden;
+  --progress: 100;
+  position: absolute;
+  top: -50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  visibility: var(--visibility);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--disabled-color);
+  pointer-events: none;
+}
+@media (width >= 969px) {
+  .timer {
+    top: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.poster__event-info {
+  display: grid;
+  grid-template-columns: max-content auto;
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 48px;
+  margin-top: 60px;
+}
+@media (width <= 599px) {
+  .poster__event-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (600px <= width < 768px) {
+  .poster__event-info {
+    display: block;
+    white-space: nowrap;
+  }
+}

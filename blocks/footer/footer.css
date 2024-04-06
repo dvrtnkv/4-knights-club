@@ -1,0 +1,6 @@
+.footer {
+  background: var(--background-light-color);
+  color: #474747; /* WCAG Contrast ratio test declined design color --dimmed-text-color  */
+  padding-top: 40px;
+  padding-bottom: clamp(3.75rem, 5vw + 1.5rem, 4.5rem);
+}

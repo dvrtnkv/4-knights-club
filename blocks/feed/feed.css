@@ -1,0 +1,11 @@
+.feed {
+  display: flex;
+  overflow: hidden;
+  height: 38px;
+  background: var(--accent-color);
+}
+@media (width >= 768px) {
+  .feed {
+    height: 60px;
+  }
+}

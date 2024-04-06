@@ -1,0 +1,18 @@
+.header__bg_chess-king {
+  z-index: 4;
+  position: absolute;
+  width: 54px;
+  height: 121px;
+  left: 50%;
+  transform: translate(calc(-50% - 97px), 541px);
+  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-king_mobile.webp");
+  background-repeat: no-repeat;
+}
+@media (width >= 768px) {
+  .header__bg_chess-king {
+    width: 131px;
+    height: 266px;
+    transform: translate(calc(-50% + 111px), 270px);
+    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-king.webp");
+  }
+}

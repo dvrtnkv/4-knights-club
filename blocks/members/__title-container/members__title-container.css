@@ -1,0 +1,9 @@
+.members__title-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (width <= 968px) {
+  .members__title-container {
+    display: contents;
+  }
+}

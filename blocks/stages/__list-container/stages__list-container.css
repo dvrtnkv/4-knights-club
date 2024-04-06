@@ -1,0 +1,32 @@
+.stages__list-container {
+  min-height: 300px;
+  position: relative;
+}
+.stages__list-container::after {
+  content: "";
+  width: 335px;
+  height: 182px;
+  position: absolute;
+  top: 28px;
+  right: calc(50% - 202px);
+  background: url("https://collarslab.com/chess/images/webp/airplane-vintage-photo.webp") no-repeat;
+  background-size: contain;
+}
+@media (width <= 849px) {
+  .stages__list-container {
+    overflow: hidden;
+    padding-top: 148px;
+  }
+}
+@media (width >= 850px) {
+  .stages__list-container {
+    width: 100%;
+  }
+  .stages__list-container::after {
+    width: 401px;
+    height: 235px;
+    bottom: -10px;
+    right: -61px;
+    top: unset;
+  }
+}

@@ -1,0 +1,14 @@
+.header__content {
+  width: 100%;
+  z-index: 9999;
+}
+@media (width >= 582px) {
+  .header__content {
+    width: 542px;
+  }
+}
+@media (width <= 768px) {
+  .header__content {
+    align-self: center;
+  }
+}
