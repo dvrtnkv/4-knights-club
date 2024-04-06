@@ -1,4 +1,7 @@
 min.css
+print.css
+reduce-motion.css
+no-js.css
 main.min.js
 index.html
 node_modules
