@@ -4,4 +4,5 @@
   flex-flow: row nowrap;
   justify-content: center;
   gap: 2px;
+  color: var(--dimmed-text-color);
 }
