@@ -1,8 +1,3 @@
-<style>
-b { color: blue }
-g { color: green }
-</style>
-
 # Клуб “Четырёх коней”
 
 ## Тестовое задание Yandex crowd
