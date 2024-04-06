@@ -113,4 +113,4 @@ g { color: green }
 - [x] Mozilla Observatory [Test](https://observatory.mozilla.org/analyze/collarslab.com): A+ очков: 125
 - [x] ImmuniWeb A+
 - [x] HSTS домен добавлен в список Preload на 1 год https://hstspreload.org
-- [x] Lighthouse Navigation test [desktop](https://pagespeed.web.dev/analysis/https-collarslab-com-chess/rfzb57orxk?form_factor=desktop)/[mobile](https://pagespeed.web.dev/analysis/https-collarslab-com-chess/rfzb57orxk?form_factor=mobile)
+- [x] Lighthouse Navigation test [desktop](https://pagespeed.web.dev/analysis/https-collarslab-com-chess/pbw5j8u0mj?form_factor=desktop)/[mobile](https://pagespeed.web.dev/analysis/https-collarslab-com-chess/pbw5j8u0mj?form_factor=mobile)
