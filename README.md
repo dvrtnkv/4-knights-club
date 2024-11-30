@@ -14,8 +14,6 @@
 
 ---
 
-#### :zap: [DEMO](https://collarslab.com/chess/index.html)
-
 ### Чек лист [@dvrtnkv](https://github.com/dvrtnkv)
 
 #### Общие требования к лендингу
