@@ -5,7 +5,7 @@
   height: 302px;
   left: 50%;
   transform: translate(calc(-50% + -12px), 410px);
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/ellipse_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/ellipse_mobile.webp");
   background-repeat: no-repeat;
 }
 @media (width >= 768px) {
@@ -13,6 +13,6 @@
     width: 660px;
     height: 660px;
     transform: translate(calc(-50% + 320px), -44px);
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/ellipse.webp");
+    background-image: url("/chess/images/webp/desktop/ellipse.webp");
   }
 }

@@ -3,37 +3,37 @@
   margin-bottom: 24px;
   width: 244px;
   height: 244px;
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/member_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/member_mobile.webp");
   background-repeat: no-repeat;
 }
 @media (434px <= width <= 833px) {
   .members__picture {
     width: 320px;
     height: 320px;
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/member.webp");
+    background-image: url("/chess/images/webp/desktop/member.webp");
   }
 }
 @media (834px <= width <= 951px) {
   .members__picture {
-    background-image: url("https://collarslab.com/chess/images/webp/mobile/member_mobile.webp");
+    background-image: url("/chess/images/webp/mobile/member_mobile.webp");
   }
 }
 @media (952px <= width <= 1188px) {
   .members__picture {
     width: 320px;
     height: 320px;
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/member.webp");
+    background-image: url("/chess/images/webp/desktop/member.webp");
   }
 }
 @media (1189px <= width <= 1365px) {
   .members__picture {
-    background-image: url("https://collarslab.com/chess/images/webp/mobile/member_mobile.webp");
+    background-image: url("/chess/images/webp/mobile/member_mobile.webp");
   }
 }
 @media (width >= 1366px) {
   .members__picture {
     width: 320px;
     height: 320px;
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/member.webp");
+    background-image: url("/chess/images/webp/desktop/member.webp");
   }
 }

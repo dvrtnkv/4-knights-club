@@ -5,7 +5,7 @@
   height: 121px;
   left: 50%;
   transform: translate(calc(-50% - 97px), 541px);
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-king_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/chess-king_mobile.webp");
   background-repeat: no-repeat;
 }
 @media (width >= 768px) {
@@ -13,6 +13,6 @@
     width: 131px;
     height: 266px;
     transform: translate(calc(-50% + 111px), 270px);
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-king.webp");
+    background-image: url("/chess/images/webp/desktop/chess-king.webp");
   }
 }

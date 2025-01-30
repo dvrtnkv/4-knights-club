@@ -5,7 +5,7 @@
   height: 62px;
   left: 50%;
   background-repeat: no-repeat;
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-pawn_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/chess-pawn_mobile.webp");
   transform: translate(calc(-50% + 179px), 702px);
 }
 @media (width <= 375px) {
@@ -18,6 +18,6 @@
     width: 83px;
     height: 123px;
     transform: translate(calc(-50% + 597px), 558px);
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-pawn.webp");
+    background-image: url("/chess/images/webp/desktop/chess-pawn.webp");
   }
 }

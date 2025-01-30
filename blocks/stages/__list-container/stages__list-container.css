@@ -9,7 +9,7 @@
   position: absolute;
   top: 28px;
   right: calc(50% - 202px);
-  background: url("https://collarslab.com/chess/images/webp/airplane-vintage-photo.webp") no-repeat;
+  background: url("/chess/images/webp/airplane-vintage-photo.webp") no-repeat;
   background-size: contain;
 }
 @media (width <= 849px) {

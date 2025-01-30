@@ -6,7 +6,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(calc(-50% + 6px));
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-knight_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/chess-knight_mobile.webp");
   background-repeat: no-repeat;
 }
 @media (width >= 768px) {
@@ -14,6 +14,6 @@
     width: 197px;
     height: 218px;
     transform: translateX(calc(-50% + 251px));
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-knight.webp");
+    background-image: url("/chess/images/webp/desktop/chess-knight.webp");
   }
 }

@@ -5,7 +5,7 @@
   height: 108px;
   left: 50%;
   transform: translate(calc(-50% + 66px), 502px);
-  background-image: url("https://collarslab.com/chess/images/webp/mobile/chess-queen_mobile.webp");
+  background-image: url("/chess/images/webp/mobile/chess-queen_mobile.webp");
   background-repeat: no-repeat;
 }
 @media (width >= 768px) {
@@ -13,6 +13,6 @@
     width: 146px;
     height: 266px;
     transform: translate(calc(-50% + 452px), 165px);
-    background-image: url("https://collarslab.com/chess/images/webp/desktop/chess-queen.webp");
+    background-image: url("/chess/images/webp/desktop/chess-queen.webp");
   }
 }

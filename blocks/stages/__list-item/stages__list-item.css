@@ -1,7 +1,7 @@
 .stages__list-item {
   display: flex;
   box-sizing: border-box;
-  background: url("https://collarslab.com/chess/images/webp/stages-tile.webp") repeat;
+  background: url("/chess/images/webp/stages-tile.webp") repeat;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
